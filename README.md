@@ -38,8 +38,9 @@ The algorithm results were then parsed and organized into lists for the followin
 ### 6. Visualization and Insights
 Heatmaps were created for support, confidence, and lift to visually analyze the strength and frequency of associations between items:
 
+---
 
-- **Support Heatmap**: Showcases the frequency of item combinations, with higher values indicating frequently purchased pairs.
+**Support Heatmap**: Showcases the frequency of item combinations, with higher values indicating frequently purchased pairs.
 
 ![Support Heatmap](https://github.com/Phenomkay/Market-Basket-Optimization/blob/28a836c4b2c6eafee289ce97342bb65e12d1c40b/support%20heatmap.png)
 
@@ -49,9 +50,9 @@ Heatmaps were created for support, confidence, and lift to visually analyze the 
 
  - Notable support values include "light cream" and "chicken" (0.0045), and "whole wheat pasta" and "olive oil" (0.0080).
    
+---
 
-
-- **Confidence Heatmap**: Illustrates the probability of buying the RHS item(s) when the LHS item(s) are bought, with higher values suggesting stronger predictive relationships.
+**Confidence Heatmap**: Illustrates the probability of buying the RHS item(s) when the LHS item(s) are bought, with higher values suggesting stronger predictive relationships.
   
 ![Confidence Heatmap](https://github.com/Phenomkay/Market-Basket-Optimization/blob/28a836c4b2c6eafee289ce97342bb65e12d1c40b/confidence%20heatmap.png)
 
@@ -63,9 +64,9 @@ Heatmaps were created for support, confidence, and lift to visually analyze the 
 
  - Tomato Sauce and Escalope (0.3774) - strong relationship
 
+---
 
-
-- **Lift Heatmap**: Highlights the strength of associations by showing how much more likely items are bought together than expected by chance, with high lift values pinpointing valuable itemsets.
+**Lift Heatmap**: Highlights the strength of associations by showing how much more likely items are bought together than expected by chance, with high lift values pinpointing valuable itemsets.
 
 ![Lift Heatmap](https://github.com/Phenomkay/Market-Basket-Optimization/blob/28a836c4b2c6eafee289ce97342bb65e12d1c40b/lift%20heatmap.png)
 
